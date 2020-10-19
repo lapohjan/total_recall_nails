@@ -4,10 +4,6 @@
     border-radius: 40%;
 }
 
-.hand {
-    display: inline-flex;
-}
-
 .button {
     width: 100px;
     height: 50px;
@@ -24,4 +20,41 @@
     background-color: #009a00;
     cursor: pointer;
     cursor: hand;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    width: 500px;
+  }
+  .one {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .two { 
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 4;
+    grid-row: 1;
+  }
+  .four {
+    grid-column: 5;
+    grid-row: 1;
+  }
+  .five {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .six {
+      grid-column: 3 / 5;
+      grid-row: 4;
+      align-content: center;
+      text-align: center;
+  }
+  .button {
+    margin-top: 25px;
   }
