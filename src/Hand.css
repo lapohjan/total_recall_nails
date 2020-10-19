@@ -1,0 +1,23 @@
+.division{
+    height: 100px;
+    width: 50px;
+}
+
+
+.button {
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    border: none;
+    outline:none;
+  }
+  
+  .button:hover {
+    background-color: #009a00;
+    cursor: pointer;
+    cursor: hand;
+  }

@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Hand from './Hand';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div>
+      <Hand/>
     </div>
   );
 }
