@@ -6,25 +6,24 @@ export default function Hand() {
     const [color, setColor] = useState(randomColor())
     
     return (
-    <div>
-        <div className="wrapper">
-            <div className="one">
-                <div className="nail" style={{backgroundColor:`${color}`}}></div>
-            </div>
-            <div className="two">
-                <div className="nail" style={{backgroundColor:`${color}`}}></div>
-            </div>
-            <div className="three">
-                <div className="nail" style={{backgroundColor:`${color}`}}></div>
-            </div>
-            <div className="four">
-                <div className="nail" style={{backgroundColor:`${color}`}}></div>
-            </div>
-            <div className="five">
-                <div className="nail" style={{backgroundColor:`${color}`}}></div></div>    
-            <div className="six">
-                <button className="button" onClick={() => setColor(randomColor())}>Change Color</button>
-            </div>
+    <div className="wrapper">
+        <div className="five">
+            <button className="nail" style={{backgroundColor:`${color}`}} onClick={() => setColor(randomColor())}/>
+        </div>
+        <div className="four">
+            <button className="nail" style={{backgroundColor:`${color}`}} onClick={() => setColor(randomColor())}/>
+        </div>
+        <div className="three">
+            <button className="nail" style={{backgroundColor:`${color}`}} onClick={() => setColor(randomColor())}/>
+        </div>
+        <div className="two">
+            <button className="nail" style={{backgroundColor:`${color}`}} onClick={() => setColor(randomColor())}/>
+        </div>
+        <div className="one">
+            <button className="nail" style={{backgroundColor:`${color}`}} onClick={() => setColor(randomColor())}/>
+        </div>
+        <div className="six">
+            {/* <button className="button" onClick={() => setColor(randomColor())}>Change Color</button> */}
         </div>
     </div>
     )
