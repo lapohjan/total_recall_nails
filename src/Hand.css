@@ -1,8 +1,12 @@
-.division{
+.nail{
     height: 100px;
     width: 50px;
+    border-radius: 40%;
 }
 
+.hand {
+    display: inline-flex;
+}
 
 .button {
     width: 100px;
