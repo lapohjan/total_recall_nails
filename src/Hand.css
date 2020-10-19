@@ -2,12 +2,14 @@
     height: 100px;
     width: 50px;
     border-radius: 40%;
+    border: none;
+    outline:none;
 }
 
 .button {
     width: 100px;
     height: 50px;
-    background-color: green;
+    background-color:  #f153e4;
     color: white;
     text-align: center;
     line-height: 50px;
@@ -17,19 +19,25 @@
 }
   
 .button:hover {
-    background-color: #009a00;
+    background-color: #278a79;
     cursor: pointer;
     cursor: hand;
 }
 
 .wrapper {
     display: grid;
-    background-color: peachpuff;
+    /* background-color: peachpuff; */
+    /* background-image: url('/src/img/kasi.jpg'); */
+    /* background: url(./kasi.png) no-repeat; */
+    background: url("https://source.unsplash.com/egbB-zLBeDo") center center/cover;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
     width: 500px;
+    /* height: 630px; */
     margin: auto;
+    margin-top: 50px;
+    border-radius: 5%;
 }
 
 .one {
@@ -78,10 +86,9 @@
       margin: auto;
 }
 
-.button {
-    margin-top: 25px;
+.html, body {
+    background-color: rgb(194, 255, 249);
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
-
-/* .canvas {
-    background-color: peachpuff;
-} */
