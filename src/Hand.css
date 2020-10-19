@@ -5,6 +5,7 @@
     border: none;
     outline:none;
     cursor: pointer;
+    transition: background-color 1s;
 }
 
 .button {

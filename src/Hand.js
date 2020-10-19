@@ -7,16 +7,16 @@ export default function Hand() {
     
     return (
     <div className="wrapper">
-        <div className="five">
-            <button className="nail" style={{backgroundColor:`${color}`}} onClick={() => setColor(randomColor())}/>
-        </div>
-        <div className="four">
+        <div className="two">
             <button className="nail" style={{backgroundColor:`${color}`}} onClick={() => setColor(randomColor())}/>
         </div>
         <div className="three">
             <button className="nail" style={{backgroundColor:`${color}`}} onClick={() => setColor(randomColor())}/>
         </div>
-        <div className="two">
+        <div className="four">
+            <button className="nail" style={{backgroundColor:`${color}`}} onClick={() => setColor(randomColor())}/>
+        </div>
+        <div className="five">
             <button className="nail" style={{backgroundColor:`${color}`}} onClick={() => setColor(randomColor())}/>
         </div>
         <div className="one">
