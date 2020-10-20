@@ -1,7 +1,7 @@
 .nail{
     height: 65px;
     width: 35px;
-    border-radius: 40%;
+    border-radius: 45%;
     border: none;
     outline:none;
     cursor: pointer;
@@ -11,11 +11,12 @@
 .button {
     /* width: 50px;
     height: 50px; */
-    /* background-color:  #f153e4;
+    /* background-color:  #f153e4; */
     color: white;
     text-align: center;
-    line-height: 50px;
-    border-radius: 30px; */
+    height: 70px;
+    width: 70px;
+    border-radius: 55px;
     border: none;
     outline:none;
 }
@@ -23,6 +24,7 @@
 .nail:hover {
     /* background-color: #278a79; */
     cursor: hand;
+    /* cursor: url(./cursor.svg), auto; */
 }
 
 .wrapper {
@@ -77,9 +79,11 @@
 }
 
 .six {
-      align-content: center;
-      text-align: center;
-      margin: auto;
+    align-content: center;
+    text-align: center;
+    position: absolute;
+    top: 500px;
+    left: 200px;
 }
 
 .html, body {
