@@ -1,5 +1,6 @@
 {
   "name": "total_recall_nails",
+  "homepage": "https://lauratellervo.fi/nails",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
